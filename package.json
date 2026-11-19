@@ -4,5 +4,10 @@
   "private": true,
   "type": "module",
   "description": "Genie 2.0 production service: Approved -> Scheduled (Notion 4.4d section 2)",
-  "engines": { "node": "26.x" }
+  "engines": {
+    "node": "26.x"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
 }
